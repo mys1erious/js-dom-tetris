@@ -1,0 +1,26 @@
+.board-container {
+    display: grid;
+    justify-content: center;
+    background-color: black;
+    padding: 10px;
+}
+
+.cell {
+    width: 30px;
+    height: 30px;
+}
+
+.cell-border {
+    background-image: url("../assets/Border-block.png");
+    background-size: cover;
+}
+
+.cell-blink {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
