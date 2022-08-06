@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tetris</title>
+
+    <link rel="stylesheet" href="./core/main.css">
+    <link rel="stylesheet" href="./board/board.css">
+    <link rel="stylesheet" href="./figures/figure.css">
+
+    <script type="module">
+        import {startGame, endGame} from './core/main.js'
+        document.getElementById('startBtn').onclick = startGame;
+        document.getElementById('endBtn').onclick = endGame;
+    </script>
+    <script type="text/javascript">
+        let gameScore = 0;
+    </script>
+</head>
+<body>
+<div id="main-container">
+    <button id="startBtn">StartGame</button>
+    <button id="endBtn">EndGame</button>
+    <div id="score-view">
+        Score: <span id="score-val">0</span>
+    </div>
+</div>
+</body>
+</html>
