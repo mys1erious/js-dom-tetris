@@ -1,0 +1,41 @@
+.fig {
+    border: 1px solid gray;
+}
+
+.fig-I {
+    background-image: url('../assets/I-block.png');
+    background-size: cover;
+}
+
+.fig-J {
+    background-image: url('../assets/J-block.png');
+    background-size: cover;
+}
+
+.fig-L {
+    background-image: url('../assets/L-block.png');
+    background-size: cover;
+}
+
+.fig-O {
+    background-image: url('../assets/O-block.png');
+    background-size: cover;
+}
+
+.fig-S {
+    background-image: url('../assets/S-block.png');
+    background-size: cover;
+}
+
+.fig-T {
+    background-image: url('../assets/T-block.png');
+    background-size: cover;
+}
+
+.fig-Z {
+    background-image: url('../assets/Z-block.png');
+    background-size: cover;
+}
+
+.fig-static {
+}
